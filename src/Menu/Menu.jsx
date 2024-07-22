@@ -1,7 +1,6 @@
 import React, { lazy } from 'react'
 import './Menu.css'
 import Link from 'next/link'
-lazy(import(''))
 export const Menu = ({ menuItems }) => {
 
     return (
