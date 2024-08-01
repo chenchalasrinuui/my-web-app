@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux'
 export const Posts = () => {
     const dispatch = useDispatch();
     const getPosts = () => {
-        dispatch({ type: "GET_POSTS" })
+        dispatch({ type: "GET_POSTS", payload: { n1: 10, n2: 20 } })
     }
     return (
         <div>
